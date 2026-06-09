@@ -8,14 +8,14 @@ import { utilsDescription } from './resources/utils';
 
 export class Opentargets implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'opentargets',
+		displayName: 'Opentargets',
 		name: 'N8nDevOpentargets',
 		icon: { light: 'file:./opentargets.svg', dark: 'file:./opentargets.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Open Targets Platform REST API',
-		defaults: { name: 'opentargets' },
+		defaults: { name: 'Opentargets' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

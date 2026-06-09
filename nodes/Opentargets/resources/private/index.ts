@@ -15,8 +15,8 @@ export const privateDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Api Docs",
-					"value": "Get Api Docs",
+					"name": "Get API Docs",
+					"value": "Get API Docs",
 					"action": "Browse API documentation",
 					"description": "Access api docs as served by Redoc",
 					"routing": {
@@ -27,8 +27,8 @@ export const privateDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Api Swagger UI",
-					"value": "Get Api Swagger UI",
+					"name": "Get API Swagger UI",
+					"value": "Get API Swagger UI",
 					"action": "Browse interactive API documentation",
 					"description": "Interactive API docs using swagger-ui",
 					"routing": {
@@ -63,8 +63,8 @@ export const privateDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Post Disease By Id",
-					"value": "Post Disease By Id",
+					"name": "Post Disease By ID",
+					"value": "Post Disease By ID",
 					"action": "Find information about a list of diseases",
 					"description": "Get `disease` objects.\n",
 					"routing": {
@@ -75,8 +75,8 @@ export const privateDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Disease By Id",
-					"value": "Get Disease By Id",
+					"name": "Get Disease By ID",
+					"value": "Get Disease By ID",
 					"action": "Find information about a disease",
 					"description": "Get `disease` objects.\n",
 					"routing": {
@@ -247,7 +247,7 @@ export const privateDescription: INodeProperties[] = [
 						"Private"
 					],
 					"operation": [
-						"Get Api Docs"
+						"Get API Docs"
 					]
 				}
 			}
@@ -266,7 +266,7 @@ export const privateDescription: INodeProperties[] = [
 						"Private"
 					],
 					"operation": [
-						"Get Api Swagger UI"
+						"Get API Swagger UI"
 					]
 				}
 			}
@@ -390,7 +390,7 @@ export const privateDescription: INodeProperties[] = [
 						"Private"
 					],
 					"operation": [
-						"Post Disease By Id"
+						"Post Disease By ID"
 					]
 				}
 			}
@@ -406,7 +406,7 @@ export const privateDescription: INodeProperties[] = [
 						"Private"
 					],
 					"operation": [
-						"Post Disease By Id"
+						"Post Disease By ID"
 					]
 				}
 			}
@@ -425,7 +425,7 @@ export const privateDescription: INodeProperties[] = [
 						"Private"
 					],
 					"operation": [
-						"Get Disease By Id"
+						"Get Disease By ID"
 					]
 				}
 			}
@@ -443,7 +443,7 @@ export const privateDescription: INodeProperties[] = [
 						"Private"
 					],
 					"operation": [
-						"Get Disease By Id"
+						"Get Disease By ID"
 					]
 				}
 			}
@@ -468,7 +468,7 @@ export const privateDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Drug Id",
+			"displayName": "Drug ID",
 			"name": "drug_id",
 			"required": true,
 			"description": "An ID in the drug index.",

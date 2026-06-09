@@ -8,7 +8,7 @@ import type {
 export class OpentargetsApi implements ICredentialType {
 	name = 'N8nDevOpentargetsApi';
 
-	displayName = 'opentargets API';
+	displayName = 'Opentargets API';
 
 	icon: Icon = { light: 'file:../nodes/Opentargets/opentargets.svg', dark: 'file:../nodes/Opentargets/opentargets.dark.svg' };
 
@@ -22,7 +22,7 @@ export class OpentargetsApi implements ICredentialType {
 			default: '//platform-api.opentargets.io/v3',
 			required: true,
 			placeholder: '//platform-api.opentargets.io/v3',
-			description: 'The base URL of your opentargets API server',
+			description: 'The base URL of your Opentargets API server',
 		},
 		{
 			displayName: 'API Key',

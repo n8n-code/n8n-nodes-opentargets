@@ -53,14 +53,85 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Filter | Get filter available associations, Post batch query available associations, Get filter available evidence, Post batch filter available evidence |
-| Retrieve | Get association by id, Get evidence by id, Post get evidence for a list of ids |
-| Search | Get search for a disease or a target |
-| Public | Get association by id, Get filter available associations, Post batch query available associations, Get evidence by id, Post get evidence for a list of ids, Get filter available evidence, Post batch filter available evidence, Get search for a disease or a target, Get metrics about the current data release, Get ping service, Get statistics about the current data release, Get the list of therapeutic areas about the current data release, Get api version |
-| Private | Get browse api documentation, Get browse interactive api documentation, Get autocomplete objects, Post find the best hit, Post find information about a list of diseases, Get find information about a disease, Get drug by id, Get evidence code by id, Post enrichment analysis, Get search most relevant results, Post find related entities, Get find related entities by disease, Get find related entities by target, Post find information about a list of targets, Get query expression levels, Post batch query expression levels, Get find information about a target, Get openapi schema |
-| Utils | Get metrics about the current data release, Get ping service, Get statistics about the current data release, Get the list of therapeutic areas about the current data release, Get api version |
+<details>
+<summary><b>Filter</b> (4 operations)</summary>
+
+- Get Filter available associations
+- Post Batch query available associations
+- Get Filter available evidence
+- Post Batch filter available evidence
+
+</details>
+
+<details>
+<summary><b>Retrieve</b> (3 operations)</summary>
+
+- Get association by ID
+- Get evidence by ID
+- Post Get evidence for a list of IDs
+
+</details>
+
+<details>
+<summary><b>Search</b> (1 operations)</summary>
+
+- Get Search for a disease or a target
+
+</details>
+
+<details>
+<summary><b>Public</b> (13 operations)</summary>
+
+- Get association by ID
+- Get Filter available associations
+- Post Batch query available associations
+- Get evidence by ID
+- Post Get evidence for a list of IDs
+- Get Filter available evidence
+- Post Batch filter available evidence
+- Get Search for a disease or a target
+- Get metrics about the current data release
+- Get Ping service
+- Get statistics about the current data release
+- Get the list of therapeutic areas about the current data release
+- Get API version
+
+</details>
+
+<details>
+<summary><b>Private</b> (18 operations)</summary>
+
+- Get Browse API documentation
+- Get Browse interactive API documentation
+- Get autocomplete objects
+- Post Find the best hit
+- Post Find information about a list of diseases
+- Get Find information about a disease
+- Get drug by ID
+- Get evidence code by ID
+- Post Enrichment analysis
+- Get Search most relevant results
+- Post Find related entities
+- Get Find related entities by disease
+- Get Find related entities by target
+- Post Find information about a list of targets
+- Get Query expression levels
+- Post Batch query expression levels
+- Get Find information about a target
+- Get OpenAPI schema
+
+</details>
+
+<details>
+<summary><b>Utils</b> (5 operations)</summary>
+
+- Get metrics about the current data release
+- Get Ping service
+- Get statistics about the current data release
+- Get the list of therapeutic areas about the current data release
+- Get API version
+
+</details>
 
 ---
 
